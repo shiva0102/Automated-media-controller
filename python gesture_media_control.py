@@ -6,7 +6,7 @@ import time
 # Initialize PyAutoGUI for media playback control
 media_player = pyautogui
 
-# Initialize MediaPipe hands module
+# Initialize MediaPipe  module FOR HANDS DETECTION
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands() 
 
