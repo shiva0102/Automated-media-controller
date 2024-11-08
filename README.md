@@ -79,7 +79,7 @@ pip install opencv-python mediapipe pyautogui
 ##  Future Scope
 -  This system can be adapted for broader applications, such as:
 
-Smart TVs: Gesture-based control for navigating channels or adjusting volume without remotes.
-Home Automation: Integrating with smart home systems to control lighting, appliances, or media devices.
-Virtual Meetings: Controlling video calls hands-free to mute/unmute or switch views based on gestures and eye presence.
+-  Smart TVs: Gesture-based control for navigating channels or adjusting volume without remotes.
+-  Home Automation: Integrating with smart home systems to control lighting, appliances, or media devices.
+-  Virtual Meetings: Controlling video calls hands-free to mute/unmute or switch views based on gestures and eye presence.
 
