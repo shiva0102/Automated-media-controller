@@ -1,0 +1,28 @@
+# Automated Media Controller System
+
+This project enables media playback control using hand gestures and eye detection through a webcam. Using [MediaPipe](https://google.github.io/mediapipe/) for hand and eye detection and [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) to simulate keyboard inputs, the program offers hands-free media control.
+
+## Features
+
+- **Play/Pause Control**: Automatically plays or pauses media playback based on eye detection (open or closed).
+- **Gesture Control**: Uses hand gestures to control media playback:
+  - **1 Finger**: Next track (right arrow key)
+  - **2 Fingers**: Previous track (left arrow key)
+  - **3 Fingers**: Volume up (up arrow key)
+  - **4 Fingers**: Volume down (down arrow key)
+
+## Requirements
+
+- **Python** 3.x
+- **Required Libraries**:
+  - `opencv-python`: for video capture and frame manipulation
+  - `mediapipe`: for hand and eye detection
+  - `pyautogui`: for simulating media control keypresses
+  - `time`: for handling gesture timing
+
+### Installation
+
+To install the required libraries, run:
+
+```bash
+pip install opencv-python mediapipe pyautogui
